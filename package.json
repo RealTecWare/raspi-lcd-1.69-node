@@ -1,0 +1,34 @@
+{
+  "description": "Node.js binding of Waveshare 1.3in LCD Hat driver for Raspberry Pi",
+  "gypfile": true,
+  "keywords": [
+    "Raspberry-Pi",
+    "Waveshare",
+    "bcm2835",
+    "ST7789VM",
+    "LCD"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "lcd-driver",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://gitlab.com/bettse/my_lcd.git"
+  },
+  "version": "2.1.0",
+  "dependencies": {
+    "bindings": "^1.2.1"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/bettse/my_lcd/issues"
+  },
+  "homepage": "https://gitlab.com/bettse/my_lcd",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "author": ""
+}
